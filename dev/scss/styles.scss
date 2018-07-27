@@ -1,6 +1,7 @@
-
 @import "vendors/bootstrap/bootstrap";
-
+@import "vendors/menu/menu";
+@import "vendors/menu/pater";
+@import "vendors/particles/particles";
 //
 // Base
 // 
@@ -12,7 +13,6 @@
 @import "base/branding";
 @import "base/vars";
 @import "base/typo";
-
 //
 // Components
 // 
@@ -23,7 +23,6 @@
 @import "components/button";
 @import "components/button";
 @import "components/form";
-
 //
 // Layout
 // 
@@ -32,6 +31,7 @@
 // Styleguide 3.0 
 //
 @import "layout/header";
+@import "layout/banner";
 @import "layout/nav";
 @import "layout/footer";
 @import "layout/page";
