@@ -1,0 +1,22 @@
+// .#{$global} {
+//     &-banner {
+//         background: url('../images/banner.jpg');
+//         background-position: cover;
+//         width: 100%;
+//         height: 100vh;
+//         margin-top: -56px;
+//     }
+// }
+.eit-banner {
+    background: url('../images/banner.jpg');
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+}
+
+.shape-overlays {
+    z-index: 2;
+}
